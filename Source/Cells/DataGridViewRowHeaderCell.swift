@@ -32,8 +32,9 @@ open class DataGridViewRowHeaderCell: DataGridViewBaseHeaderCell {
         }
         
     }()
-    open override static func initialize() {
-        super.initialize()
-        _ = DataGridViewRowHeaderCell.__once
-    }
+    #warning(" Need to be changed to support Swift 5, since initialize is deprecated from Swift 4")
+//    open override static func initialize() {
+//        super.initialize()
+//        _ = DataGridViewRowHeaderCell.__once
+//    }
 }
